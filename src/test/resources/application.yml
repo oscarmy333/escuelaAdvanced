@@ -1,0 +1,12 @@
+server:
+    port: 9090
+spring:
+    data:
+        mongodb:
+            uri: mongodb://localhost
+            database: mock
+
+application:
+    endpoints:
+        url:
+            valid_address: http://localhost:9090/users

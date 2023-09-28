@@ -1,0 +1,16 @@
+server:
+    port: 9002
+spring:
+    data:
+        mongodb:
+            # Azure portal
+            uri: "mongodb://bootcamp2022:Z4Cgm7eCxjy3t3s1UF13Zx59b7GqUuowE3iZN5uAx2jSJfPaQbOhmYcDv7fSHFH8usuJ1Hd3w7GTz3DxFmqXXQ==@bootcamp2022.mongo.cosmos.azure.com:10255/?ssl=true&retrywrites=false&replicaSet=globaldb&maxIdleTimeMS=120000&appName=@bootcamp2022@"
+            database: bootcampodb
+#https://cloud.mongodb.com/
+#uri: "mongodb+srv://afmancilla:Bootcamp2022@cluster0.nh4vc.mongodb.net/bootcampodb"
+
+application:
+    endpoints:
+        url:
+            #valid_address: http://run.mocky.io/v3/d1d95b0c-349d-461b-8c6f-56b9c499c43e
+            valid_address: https://jsonplaceholder.typicode.com/users
